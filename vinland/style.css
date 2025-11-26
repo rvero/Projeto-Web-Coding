@@ -1,0 +1,107 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    background: grey;
+    font-family: "Cinzel", serif;
+    color: #f5e9c8;
+}
+
+/* ÍCONES VIKINGS */
+.icon-bar {
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    z-index: 10;
+}
+
+/*FUNDO DE MADEIRA VIKING */
+.icon {
+    width: 130px;
+    height: 130px;
+    border-radius: 18px;
+    background-image: url("madeira.jpg"); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    color: #f2e3c6; 
+    border: 4px solid #3a2818; 
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.icon span {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #f2e3c6;
+    text-shadow: 1px 1px 2px black;
+}
+
+.icon:hover {
+    transform: scale(1.18);
+    box-shadow: 0 0 16px rgba(0,0,0,0.7);
+}
+
+
+.icon span {
+    font-size: 14px;
+    display: block;
+    margin-top: 6px;
+}
+
+.icon:hover {
+    transform: translateY(-10px) scale(1.07);
+    border-color: #c28c51;
+    box-shadow: 0 0 26px rgba(255, 215, 160, 0.4);
+}
+
+
+.gif-container {
+    width: 100%;
+    height: calc(100% - 170px); 
+    margin-top: 140px; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+.gif-container img {
+    height: 80%;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    position: fixed;
+    bottom: 14px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+}
+
+footer p {
+    background: rgba(0,0,0,0.55);
+    padding: 6px 14px;
+    display: inline-block;
+    color: #e9d9b9;
+    border-radius: 6px;
+    border: 1px solid #a18563;
+    font-size: 13px;
+}
+
+
